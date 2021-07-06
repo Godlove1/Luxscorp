@@ -1,0 +1,167 @@
+*{
+	margin:0;
+	padding:0;
+box-sizing: border-box;
+	}
+ body{
+ background-image:linear-gradient(45deg, rgba(10, 34, 141, 0.74), rgba(204, 24, 24, 0.795)) ;
+height:100vh;
+width:100%;
+ }
+  .classic   .img{
+ 	border-radius:50%;
+  height:30px;
+  width:30px;
+  background:red;
+  animation: bubbles 5s linear  infinite;
+ }
+     .classic   .img:nth-child(1){
+  	animation-delay:1s;
+ }
+      .classic   .img:nth-child(2){
+  	animation-delay:6s;
+  width:15px;
+  height:15px;
+background: pink;
+ }
+      .classic   .img:nth-child(3){
+  	animation-delay:4s;
+  background:green;
+ }
+      .classic   .img:nth-child(4){
+  	animation-delay:2s;
+ width:15px;
+  height:15px;
+ }
+ .classic   .img:nth-child(5){
+  	animation-delay:1s;
+ background:rgb(128, 0, 85);
+ }
+  .classic   .img:nth-child(6){
+  	animation-delay:7s;
+ width:8px;
+  height:8px;
+  background:yellow;
+ }      .classic   .img:nth-child(7){
+  	animation-delay:5s;
+ }
+       .classic   .img:nth-child(8){
+  	animation-delay:9s;
+ width:15px;
+  height:15px;
+  
+ }
+    .classic{
+ 	width:100%;
+height: auto;
+ position:absolute;
+ 	display:flex;
+  justify-content:space-around;
+  align-content:center;
+  bottom:-25px;
+z-index: -1;
+ }
+
+@keyframes bubbles{
+ 	0%{
+       transform: translateY(0) ;
+     opacity:1;
+ }
+ 45%{
+border-radius: 0; 
+width: 45px;  
+ opacity:1;
+ }
+40%{
+border-radius: 0;   
+ opacity:1;
+ }
+
+100%{
+       transform:translateY(-100vh) ;
+ opacity:0;
+ }
+
+ }
+.header{
+display: flex;
+justify-content: space-between;
+padding: 5px  10px;
+}
+.logo img{
+width: 125px;
+height: 90px;
+border-radius: 5px;
+animation: back 2s linear 3;
+}
+.hed h1{
+padding-top: 35px;
+padding-right: 30px;
+font-size: 2em;
+color: wheat;
+cursor: pointer;
+animation: back .7s linear 5;
+}
+@-moz-keyframes back{
+0%{
+transform: scaleY(5px);
+opacity: 0;
+}
+100%{
+transform: scaleY(-25px);
+}
+}
+@-moz-keyframes rot{
+0%{
+transform: rotate(0deg);
+}
+100%{
+transform:rotate(360deg);
+}
+}
+main{
+border: 1px solid red;
+width: 50%;
+height: 100vh;
+}
+.heads{
+margin-top: 40%;
+border: 3px solid red;
+font-size: 2em;
+padding: 10px;
+cursor: pointer;
+animation: rot 3s linear 1;
+}
+.heads h3{
+color: rgb(204, 183, 179);
+}
+.heads p{
+font-size: 0.6em;
+color: rgba(195, 199, 190, 0.753);
+}
+sup{
+font-size: 0.5em;
+padding: 5px;
+}
+.red{
+color: rgba(231, 13, 13, 0.534);
+border-bottom: 2px solid;
+}
+.btn a{
+text-decoration: none;
+color: aliceblue;
+}
+.btn{
+background: rgba(252, 88, 13, 0.63);
+border: 3px solid red;
+padding: 10px;
+text-align: center;
+width: 200px;
+cursor: pointer;
+margin-left: 56%;
+animation: back 1s linear 5;
+}
+.btn:hover,.btn a:hover{
+background: whitesmoke ;
+color: black;
+}

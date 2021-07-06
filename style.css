@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+background:rgba(192, 192,192,0.4);
+  width: 100%;
+  height:100vh;   
+ font-family: 'Poppins', 'sans-serif';
+}
+main{
+   width: 100%;
+   height: auto;
+cursor: pointer;
+}
+  
+header{
+	width:100%;
+	height: 80px;
+	background:rgba( 0,0,0,0.2);
+	}
+header img{
+	width:70px;
+	height:70px;
+	float:left;
+	padding:10px 0 0 0;
+	}
+header h1{
+padding:25px 0 0 1px;
+text-align:center;
+font-size:35px;
+font-weight:250;
+cursor: pointer;
+	}
+	.redpart{
+		color:red;
+		}
+		sub{
+			font-size:12px;
+			padding:0;
+			margin:0;
+			}
+.navbar{
+	width:100%;
+	height:auto;
+	}
+	.navbar ul{
+		list-style-type:none;
+		display:flex;
+		justify-content: space-around;
+		align-items:center;
+    padding: 15px  0;
+		}
+		.navbar ul li{
+			background: #F4F4F4;
+			border-radius:8px;
+      padding: 8px;
+			box-shadow: 2px 0 8px black;
+transition: transform  .3s ease-in;
+			}
+			.navbar ul li:hover{
+        transform: translatey(-5px);
+				box-shadow: 0 0 8px black;
+background: #a7a2a2;
+				}
+			.navbar ul li a{
+				text-decoration:none;
+				color:black;
+				text-transform: capitalize;
+				font-weight:100;
+				}
+				#home{
+		background-image: url("images/condot.jpg");
+         background-repeat: no-repeat;
+         background-position: fixed;
+         background-attachment: center;
+         background-size: cover;
+         height:auto;
+					}
+					
+					.hi{
+						color:red;
+						letter-spacing:10px;
+						font-size:1em;
+						padding:5px;
+						font-weight:bold;
+						}
+					.intro{
+						text-align:center;
+						color:white;
+						font-size: 1.3em ;
+						font-weight:350;
+						padding:25px;
+            background: rgb(0,0,0,0.6)
+						}
+						button {
+           border: none;
+           background: rgba(0,0,0);
+           border-radius: 5px;
+           padding: 5px;
+           margin-left: 37%;
+              position: absolute;
+           border: 1px  solid white;
+transition: font-size  .3s ease-in;
+       }
+       button a{
+       	text-decoration:none;
+       }
+       button:hover{
+       	box-shadow: 0 0 8px black;
+				font-size:15px;
+       }
+       #lead{
+       	padding:30px 15px;
+       margin:2px; 
+       }
+       #lead p{
+       font-weight:150;
+       font-size: 1.2em;
+       }
+       .wwd{
+       width: 100%;
+height: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+       }
+       .card1{
+       	width: 320px;
+         height:auto;
+         border-radius:5px;
+         box-shadow: 2px 0 20px rgba(0,0,0);
+         margin: 30px auto;
+transition: transform  .3s ease-in;
+       }
+.mgcont{
+width: 100%;
+height: 160px;
+}
+.mgcont img{
+width: 100%;
+height: 100%;
+}
+.text{
+padding: 10px;
+text-align: center;
+line-height: 1.2;
+}
+       .card1:hover{
+         transform:translatey(-15px);
+       }
+       .card1 h2{
+background: rgba(185, 11, 11, 0.781);
+text-align: center;
+color: bisque;
+padding: 10px;
+border-radius: 5px 5px 0 0;
+}
+       .stitle{
+       	text-align:center;
+       margin:30px;
+       }
+       /*form styling*/
+       .form{
+display: flex;
+width: 350px;
+height: 240px;
+margin-left: 5px;
+}
+fieldset{
+padding: 10px;
+}
+legend{
+color: rgb(172, 20, 15);
+}
+.submitbtn{
+background: #F4F4F4;
+box-shadow:  2px 2px 3px ;
+border: 1px solid blue;
+}
+form{
+width: 100%;
+height: 100%;
+padding: 10px;
+background: #791111;
+border-radius: 5px;
+}
+.frmfid{
+margin: 10px;
+}
+label{
+color: #F4F4F4;
+background: ;
+width: 20px;
+}
+input{
+padding: 5px;
+border-radius: 5px;
+outline: none;
+border: 1px solid red;
+box-shadow: inset 2px 2px 2px rgb(80, 79, 78);
+}
+input:focus,textarea:focus{
+border:  1px solid blue;
+}
+textarea{
+width: 240px;
+height: auto;
+resize: none;
+padding: 5px;
+border-radius: 5px;
+outline: none;
+border: 1px solid red;
+box-shadow: inset 2px 2px 2px rgb(80, 79, 78);
+}
+   footer{
+       	background:rgba(0, 0,0,0.4) ;
+       margin:20px 0 0 0;
+       color:white;
+       height:auto;
+       }
+       .footbar{
+       	display:flex;
+        justify-content:space-around;
+        align-content:center;
+       }
+   .name2{
+margin: 15px;
+}
+       .cred{
+       	background:black;
+       color:white;
+       letter-spacing:3px;
+       text-align:center;
+       padding:10px;
+       }
+       
+       .footnote{
+       	padding:5px;
+       }
+       .footnote h3{
+       	font-weight:100;
+       padding:10px;
+       }
+       .footnote a{
+       	text-decoration:none;
+       color:white;
+transition: font-size .3s ease;
+       }
+       .footnote a:focus{
+       	color:rgb(163, 18, 18);
+       }
+       .footnote a::before{
+       	content:'>';
+       color:white;
+padding: 5px;
+       }
+       .footnote ul li{
+       	list-style-type:none;
+       	padding:10px;
+       margin:5px;
+       }
+      .footnote ul li a:hover{
+       	font-size:1.3em;
+color: #791111;
+       }
+.floatcop{
+position: relative;
+width: 100%;
+}
+       .stif{
+       position: absolute;
+padding: 5px;
+margin: 5px;
+right: 0%;
+top: -20px;
+font-size:0.8em;
+background: black;
+       }
+
+@media(min-width:700px) and (max-width:1030px){
+       .form{
+              margin-left: 40%;
+       }
+}
+
+@media(min-width:1000px) and (max-width:2000px){
+       .form{
+              margin-left: 30%
+       }
+       main{
+              width:900px;
+              margin-left: 15%;
+       }
+}
